@@ -1,7 +1,7 @@
-require 'fastlane/plugin/property_file_read/version'
+require 'fastlane/plugin/property_file_write/version'
 
 module Fastlane
-  module PropertyFileRead
+  module PropertyFileWrite
     # Return all .rb files inside the "actions" and "helper" directory
     def self.all_classes
       Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]
@@ -11,6 +11,6 @@ end
 
 # By default we want to import all available actions and helpers
 # A plugin can contain any number of actions and plugins
-Fastlane::PropertyFileRead.all_classes.each do |current|
+Fastlane::PropertyFileWrite.all_classes.each do |current|
   require current
 end

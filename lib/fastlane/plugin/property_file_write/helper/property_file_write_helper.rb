@@ -1,8 +1,8 @@
 module Fastlane
   module Helper
-    class PropertyFileReadHelper
+    class PropertyFileWriteHelper
       # class methods that you define here become available in your action
-      # as `Helper::PropertyFileReadHelper.your_method`
+      # as `Helper::PropertyFileWriteHelper.your_method`
       #
     end
   end

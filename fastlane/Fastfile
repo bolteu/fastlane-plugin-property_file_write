@@ -1,4 +1,13 @@
 lane :test do
-  properties = property_file_read(file: "example.properties")
-  UI.message("VERSION from property file is " + properties["VERSION"])
+  property_file_write(
+    file: "example.properties",
+    key: "VERSION",
+    value: "2.1.0"
+  )
+  property_file_write(
+    file: "example.properties",
+    key: "VERSION_2",
+    value: "3.1.0"
+  )
+
 end

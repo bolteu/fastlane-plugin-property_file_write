@@ -1,5 +1,5 @@
 module Fastlane
-  module PropertyFileRead
+  module PropertyFileWrite
     VERSION = "1.0.0"
   end
 end

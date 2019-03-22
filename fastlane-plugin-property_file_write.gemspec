@@ -2,16 +2,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/property_file_read/version'
+require 'fastlane/plugin/property_file_write/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-property_file_read'
-  spec.version       = Fastlane::PropertyFileRead::VERSION
-  spec.author        = 'Peter Turza'
-  spec.email         = 'peter.turza@gmail.com'
+  spec.name          = 'fastlane-plugin-property_file_write'
+  spec.version       = Fastlane::PropertyFileWrite::VERSION
+  spec.author        = 'Jan Meier'
+  spec.email         = 'jan@meier.wtf'
 
-  spec.summary       = 'Reads property file into dictionary'
-  spec.homepage      = "https://github.com/peterturza/fastlane-plugin-property_file_read"
+  spec.summary       = 'writes property files'
+  spec.homepage      = "https://github.com/meierjan/fastlane-plugin-property_file_write"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
