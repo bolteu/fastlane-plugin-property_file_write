@@ -1,18 +1,18 @@
-# property_file_read plugin
+# property_file_write plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-property_file_read)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-property_file_write)
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-property_file_read`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-property_file_write`, add it to your project by running:
 
 ```bash
-fastlane add_plugin property_file_read
+fastlane add_plugin property_file_write
 ```
 
 ## About property_file_read
 
-Reads property file into dictionary
+Writes .properties files 
 
 **Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
 
