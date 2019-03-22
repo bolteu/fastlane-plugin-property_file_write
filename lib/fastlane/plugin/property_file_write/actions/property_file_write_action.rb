@@ -20,7 +20,7 @@ module Fastlane
         content[property_key.to_sym] = property_value
 
         # save back to file
-        JavaProperties.write(old_content, property_file)
+        JavaProperties.write(content, property_file)
         true
       end
 
