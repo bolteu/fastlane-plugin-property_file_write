@@ -65,8 +65,7 @@ module Fastlane
         # Adjust this if your plugin only works for a particular platform (iOS vs. Android, for example)
         # See: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
         #
-        # [:ios, :mac, :android].include?(platform)
-        true
+        [:ios, :mac, :android].include?(platform)
       end
     end
   end
